@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPMask VPN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <img src="/data/icons/lo.png" alt="IPMask Logo" class="logo">
+            <div class="connection-status">
+                <div class="status-dot"></div>
+                <span class="status-text">Not Connected</span>
+            </div>
+        </div>
+
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search servers..." class="search-input">
+        </div>
+
+        <div class="server-list">
+            <!-- Servers will be populated dynamically -->
+        </div>
+
+        <div class="connect-panel">
+            <div class="selected-server">
+                <img src="/data/flags/auto.png" alt="Auto" class="country-flag" id="selected-flag">
+                <span id="selected-server">Auto Select</span>
+            </div>
+            <button class="connect-button">
+                <i class="fas fa-power-off"></i>
+                <span>Connect</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="notification-container"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>

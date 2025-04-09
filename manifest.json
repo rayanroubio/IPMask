@@ -1,0 +1,25 @@
+{
+   "action": {
+      "default_icon": "data/icons/logo.png",
+      "default_popup": "data/panel/index.html"
+   },
+   "background": {
+      "service_worker": "bg-loader.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "homepage_url": "https://www.myIPMask.com",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "data/icons/logo.png"
+   },
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "permissions": [
+      "proxy",
+      "storage",
+      "webRequest"
+   ],
+   "short_name": "IPMask - Fast VPN for Chrome",
+   "version": "1.5.2"
+}
