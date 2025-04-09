@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="banner.webp" alt="IPMask Logo" width="200"/>
+  <img src="data/icons/lo.png" alt="IPMask Logo" width="200"/>
   
   # IPMask - Fast & Opensource VPN Extension
   
